@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>时光电影</title>
+		
+		<!--slider-->
+		<script src="xuehua/js/jquery.min.js"></script>
+		<script src="lunbochajian/scripts/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lunbochajian/scripts/camera.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="lunbochajian/css/camera.css"/>
+		<!--xuehua-->
+		<script src="xuehua/js/snow.js"></script>
+		<link href="xuehua/css/jq22.css" rel="stylesheet" type="text/css" />	
+		<!--citysele-->
+		<!--<link rel="stylesheet" type="text/css" href="citysele/css/city-select.css">
+		<script src="http://www.jq22.com/jquery/jquery-1.9.1.js"></script>
+
+		<script type="text/javascript" src="citysele/js/citydata.min.js"></script>
+		<script type="text/javascript" src="citysele/js/citySelect-1.0.2.min.js"></script>-->
+		<!--index-->
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header">
+			<ul class="nav fl">
+				<li><a href="#">首页<i></i></a></li>
+				<li><a href="javascript:;">购票</a></li>
+				<li><a href="javascript:;">正版商城</a></li>
+				<li><a href="javascript:;">新闻</a></li>
+				<li><a href="javascript:;">直播 <span></span></a></li>
+				<li><a href="javascript:;">发现</a></li>
+				<li><a href="javascript:;">社区</a></li>
+				<li><a href="javascript:;">会员</a></li>				
+			</ul>
+			<div class="logo"><a href="#"></a></div>
+			<div class="nav_login fr">
+				<i></i>
+				<div class="login fr">
+					<a href="javascript:;">登录</a>
+					<em></em>
+					<a href="javascript:;">注册</a>
+				</div>				
+			</div>
+			<div class="appdw fr">
+				<span></span>
+				<a>
+					<i></i>APP下载<b></b><span class="dp-n"></span>
+				</a>
+				<div class="dp-n"><img src="img/index/134023.34374055.png"/></div>
+			</div>
+			<div class="shoppingcar">
+				<a href="javascript:;"></a>
+				<div class="sc_con">
+					<p>您的购物车还是空的，赶快选购吧！</p>
+				</div>
+			</div>
+			<br />
+		</div>
+		<div class="mainsearch wrap">
+			<div class="search">
+				<div class="ms_type">
+					<p>商品<i></i></p>
+					<ul class="ms_list">
+						<li>全部</li>
+						<li>电影</li>
+						<li>影人</li>
+						<li>影院</li>
+						<li>商品</li>
+						<li>新闻</li>
+					</ul>
+				</div>				
+				<div class="search_con fl">
+					<input type="text" name="" id="search" value="搜索电影、影院、影人、商品、新闻" />
+					<ul class="search_history">
+						<li><a href="javascript:;">清除历史</a>搜索记录</li>
+						<li>按名称、电影、品牌等搜索商品</li>
+					</ul>
+				</div>
+				<a class="searchbtn">
+					<span></span>
+				</a>
+			</div>
+		</div>
+		<div class="slider wrap">
+			<div class="camera_wrap" id="camera_demo">
+				<div data-src="img/banner/b1.jpg"></div>
+				<div data-src="img/banner/b2.jpg"></div>
+				<div data-src="img/banner/b3.jpg"></div>
+				<div data-src="img/banner/b4.jpg"></div>
+				<div data-src="img/banner/b5.jpg"></div>
+			</div>
+			<br />
+		</div>
+		<div class="hottoday">
+			<div class="wrap">
+				<h4 class="h4comon">今日热点</h4>
+				<div class="hd_nav">
+					<i></i>
+					<dl>
+						<dd><a href="javascript:;">时光对话</a></dd><!--    
+	    				--><dd><a href="javascript:;">产业聚焦</a></dd><!--
+	    				--><dd><a href="javascript:;">电视情报</a></dd><!--
+	    				--><dd><a href="javascript:;">全球拾趣</a></dd>
+					</dl>				
+				</div>
+				<div class="ht_con">
+					<div class="ht_l fl">
+						<ul>
+							<li>
+								<div class="huandongdiv">
+									<a href="javascript:;"><img src="img/index/224126.35731797_o.jpg"/></a>
+									<h4><a href="javascript:;">范冰冰金鸡奖封后“三喜临门”</a></h4>
+									<p><a href="javascript:;">携手李晨 邓超封帝冯小刚拿最佳导演图集</a></p>
+									<span class="icontupian"></span>
+								</div>								
+							</li>
+							<li>
+								<div class="huandongdiv">
+									<a href="javascript:;"><img src="img/index/224126.35731797_o.jpg"/></a>
+									<h4><a href="javascript:;">范冰冰金鸡奖封后“三喜临门”</a></h4>
+									<p><a href="javascript:;">携手李晨 邓超封帝冯小刚拿最佳导演图集</a></p>
+									<span class="icontupian"></span>
+								</div>								
+							</li>
+							<li>
+								<div class="huandongdiv">
+									<a href="javascript:;"><img src="img/index/224126.35731797_o.jpg"/></a>
+									<h4><a href="javascript:;">范冰冰金鸡奖封后“三喜临门”</a></h4>
+									<p><a href="javascript:;">携手李晨 邓超封帝冯小刚拿最佳导演图集</a></p>
+									<span class="icontupian"></span>
+								</div>								
+							</li>
+							<li>
+								<div class="huandongdiv">
+									<a href="javascript:;"><img src="img/index/224126.35731797_o.jpg"/></a>
+									<h4><a href="javascript:;">范冰冰金鸡奖封后“三喜临门”</a></h4>
+									<p><a href="javascript:;">携手李晨 邓超封帝冯小刚拿最佳导演图集</a></p>
+									<span class="icontupian"></span>
+								</div>								
+							</li>
+							<li>
+								<div class="huandongdiv">
+									<a href="javascript:;"><img src="img/index/224126.35731797_o.jpg"/></a>
+									<h4><a href="javascript:;">范冰冰金鸡奖封后“三喜临门”</a></h4>
+									<p><a href="javascript:;">携手李晨 邓超封帝冯小刚拿最佳导演图集</a></p>
+									<span class="icontupian"></span>
+								</div>								
+							</li>
+							<li>
+								<div class="huandongdiv">
+									<a href="javascript:;"><img src="img/index/224126.35731797_o.jpg"/></a>
+									<h4><a href="javascript:;">范冰冰金鸡奖封后“三喜临门”</a></h4>
+									<p><a href="javascript:;">携手李晨 邓超封帝冯小刚拿最佳导演图集</a></p>
+									<span class="icontupian"></span>
+								</div>								
+							</li>
+							
+						</ul>
+					</div>
+					<div class="ht_r fr">
+						<div class="huandongdiv1">
+							<div><span class="iconplay"></span><img src="img/index/224126.35731797_o.jpg"/></div>						
+							<h3><a href="javascript:;">《追龙》发布会 9月20日14:00 全程直播</a></h3>
+							<p>更多直播</p>
+							<dl>				
+							<dd>
+								<i class="icon"></i>
+								<div class="livepart">
+									<a href="javascript:;">导演&荷兰弟亲临发布会</a>
+									<a href="javascript:;">回放</a><br />
+								</div>
+								<p>2017年09月04日</p>
+							</dd>
+							<dd>
+								<i class="icon"></i>
+								<div class="livepart">
+									<a href="javascript:;">导演&荷兰弟亲临发布会</a>
+									<a href="javascript:;">回放</a><br />
+								</div>
+								<p>2017年09月04日</p>
+							</dd>
+							<dd>
+								<i class="icon"></i>
+								<div class="livepart">
+									<a href="javascript:;">导演&荷兰弟亲临发布会</a>
+									<a href="javascript:;">回放</a><br />
+								</div>
+								<p>2017年09月04日</p>
+							</dd>
+							<dd>
+								<i class="icon"></i>
+								<div class="livepart">
+									<a href="javascript:;">查看更多></a>
+								</div>
+							</dd>
+						</dl>
+						</div>
+					</div>
+					<br />
+				</div>			
+				<div class="lookmore">查看更多</div>
+				<div class="ht_banner"><img src="img/index/0f0002tSZ6uq_kYoN9r_H0.jpg"/></div>
+				<div class="tricksearch">
+					<div class="ts_tit">
+						<dl>
+							<dd class="ts_show">正在售票<i>58</i>部</dd>
+							<dd>即将上映<i>68</i>部</dd>
+						</dl>					
+					</div>
+					<div class="ts_trick">
+						<div class="citysele">
+							<h3><i></i>广州<span></span></h3>
+							<div class="choosemovie">
+								选影片<i>共<b>12</b>部</i><span></span>
+							</div>
+							<div class="choosemovie">
+								选影城<i>共<b>155</b>家</i><span></span>
+							</div>
+							<div class="choosepatime">
+								选影城<span></span>
+							</div>
+							<a href="javascript:;">快速购票</a>
+						</div>
+						<div class="movielist">
+						<div class="shadowleft"></div>
+						<div class="shadowright"></div>
+							<div class="arrow">
+								<a href="javascript:;" class="last"></a>
+								<a href="javascript:;" class="next"></a>
+							</div>
+							<div class="dl_wrap">
+								<dl class="dlroll">
+									<dt>
+										<div class="dt_img">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+											</a>
+										</div>
+										<div class="dt_allcon">
+											<h3><a href="javascript:;">猩球崛起3：终极之战</a></h3>
+											<div class="dt_smalltype">
+												<p>09月15日上映 - 动作/冒险</p>				
+												<p>140分钟 - 3D/IMAX3D/…</p>
+											</div>									
+											<p class="dt_smallcomm">
+												<i></i>猿族人类生死激战一触即发
+											</p>
+											<p class="dt_smallprice"><b>28</b>元起</p>
+											<p class="butrick">选座购票</p>
+										</div>
+										<br />
+									</dt>
+									<dd>
+										<div class="ml-con">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+												<div class="ml-allcon">
+													<div class="smalltype">
+														<p>09月08日上映</p>
+														<p>动作/冒险</p>
+														<p>133分钟</p>
+													</div>
+													<p class="smallcomm">
+														<i></i>小蜘蛛飞天神器大展拳脚
+													</p>
+													<p class="smallprice"><b>28</b>元起</p>
+												</div>
+											</a>
+											<h3><a href="javascript:;">蜘蛛侠：英雄…</a></h3>
+											<p>选座购票</p>
+										</div>
+									</dd>
+									<dd>
+										<div class="ml-con">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+												<div class="ml-allcon">
+													<div class="smalltype">
+														<p>09月08日上映</p>
+														<p>动作/冒险</p>
+														<p>133分钟</p>
+													</div>
+													<p class="smallcomm">
+														<i></i>小蜘蛛飞天神器大展拳脚
+													</p>
+													<p class="smallprice"><b>28</b>元起</p>
+												</div>
+											</a>
+											<h3><a href="javascript:;">蜘蛛侠：英雄…</a></h3>
+											<p>选座购票</p>
+										</div>
+									</dd>
+									<dd>
+										<div class="ml-con">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+												<div class="ml-allcon">
+													<div class="smalltype">
+														<p>09月08日上映</p>
+														<p>动作/冒险</p>
+														<p>133分钟</p>
+													</div>
+													<p class="smallcomm">
+														<i></i>小蜘蛛飞天神器大展拳脚
+													</p>
+													<p class="smallprice"><b>28</b>元起</p>
+												</div>
+											</a>
+											<h3><a href="javascript:;">蜘蛛侠：英雄…</a></h3>
+											<p>选座购票</p>
+										</div>
+									</dd>
+									<dd>
+										<div class="ml-con">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+												<div class="ml-allcon">
+													<div class="smalltype">
+														<p>09月08日上映</p>
+														<p>动作/冒险</p>
+														<p>133分钟</p>
+													</div>
+													<p class="smallcomm">
+														<i></i>小蜘蛛飞天神器大展拳脚
+													</p>
+													<p class="smallprice"><b>28</b>元起</p>
+												</div>
+											</a>
+											<h3><a href="javascript:;">蜘蛛侠：英雄…</a></h3>
+											<p>选座购票</p>
+										</div>
+									</dd>
+									<dd>
+										<div class="ml-con">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+												<div class="ml-allcon">
+													<div class="smalltype">
+														<p>09月08日上映</p>
+														<p>动作/冒险</p>
+														<p>133分钟</p>
+													</div>
+													<p class="smallcomm">
+														<i></i>小蜘蛛飞天神器大展拳脚
+													</p>
+													<p class="smallprice"><b>28</b>元起</p>
+												</div>
+											</a>
+											<h3><a href="javascript:;">蜘蛛侠：英雄…</a></h3>
+											<p>选座购票</p>
+										</div>
+									</dd>
+									<dd>
+										<div class="ml-con">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+												<div class="ml-allcon">
+													<div class="smalltype">
+														<p>09月08日上映</p>
+														<p>动作/冒险</p>
+														<p>133分钟</p>
+													</div>
+													<p class="smallcomm">
+														<i></i>小蜘蛛飞天神器大展拳脚
+													</p>
+													<p class="smallprice"><b>28</b>元起</p>
+												</div>
+											</a>
+											<h3><a href="javascript:;">蜘蛛侠：英雄…</a></h3>
+											<p>选座购票</p>
+										</div>
+									</dd>
+									<dd>
+										<div class="ml-con">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+												<div class="ml-allcon">
+													<div class="smalltype">
+														<p>09月08日上映</p>
+														<p>动作/冒险</p>
+														<p>133分钟</p>
+													</div>
+													<p class="smallcomm">
+														<i></i>小蜘蛛飞天神器大展拳脚
+													</p>
+													<p class="smallprice"><b>28</b>元起</p>
+												</div>
+											</a>
+											<h3><a href="javascript:;">蜘蛛侠：英雄…</a></h3>
+											<p>选座购票</p>
+										</div>
+									</dd>
+									<dd>
+										<div class="ml-con">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+												<div class="ml-allcon">
+													<div class="smalltype">
+														<p>09月08日上映</p>
+														<p>动作/冒险</p>
+														<p>133分钟</p>
+													</div>
+													<p class="smallcomm">
+														<i></i>小蜘蛛飞天神器大展拳脚
+													</p>
+													<p class="smallprice"><b>28</b>元起</p>
+												</div>
+											</a>
+											<h3><a href="javascript:;">蜘蛛侠：英雄…</a></h3>
+											<p>选座购票</p>
+										</div>
+									</dd>
+									<dd>
+										<div class="ml-con">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+												<div class="ml-allcon">
+													<div class="smalltype">
+														<p>09月08日上映</p>
+														<p>动作/冒险</p>
+														<p>133分钟</p>
+													</div>
+													<p class="smallcomm">
+														<i></i>小蜘蛛飞天神器大展拳脚
+													</p>
+													<p class="smallprice"><b>28</b>元起</p>
+												</div>
+											</a>
+											<h3><a href="javascript:;">蜘蛛侠：英雄…</a></h3>
+											<p>选座购票</p>
+										</div>
+									</dd>
+									<dd>
+										<div class="ml-con">
+											<a href="javascript:;">
+												<img src="img/index/105447.94406823_170X256X4.jpg"/>
+												<em class="iconhot"></em>
+												<i class="soure">7.0</i>
+												<div class="ml-allcon">
+													<div class="smalltype">
+														<p>09月08日上映</p>
+														<p>动作/冒险</p>
+														<p>133分钟</p>
+													</div>
+													<p class="smallcomm">
+														<i></i>小蜘蛛飞天神器大展拳脚
+													</p>
+													<p class="smallprice"><b>28</b>元起</p>
+												</div>
+											</a>
+											<h3><a href="javascript:;">蜘蛛侠：英雄…</a></h3>
+											<p>选座购票</p>
+										</div>
+									</dd><br />
+								</dl>
+								
+							</div>	
+							
+						</div>
+						<br />
+					</div>
+					<div class="ts_playing">
+						<div class="shadowleft"></div>
+						<div class="shadowright"></div>
+						<a href="javascript:;" class="ts_next"></a>
+						<a href="javascript:;" class="ts_prev"></a>
+						<div class="palying_wrap">
+							<ul class="ulroll">																												
+								<li>
+									<h1>9月22号</h1>
+									<div class="ulroll_con">
+										<a href="javascript:;"><img src="img/index/160339.16284807_126X190X4.jpg"/></a>
+										<div class="ulroll_allcon">
+											<h3><a href="javascript:;">王牌保镖</a></h3>
+											<div class="ua_con">
+												<p>963人想看 -动作/喜剧</p>								
+												<p>导演：派特里克·休斯</p>
+												<p>预告片：<i></i></p>											
+											</div>
+											<div class="ua_price">
+												<p><i>28</i>元起</p>
+												<a href="javascript:;">超前预售</a>
+											</div>
+										</div>
+									</div>								
+								</li>
+								<li>
+									<h1>9月22号</h1>
+									<div class="ulroll_con">
+										<a href="javascript:;"><img src="img/index/160339.16284807_126X190X4.jpg"/></a>
+										<div class="ulroll_allcon">
+											<h3><a href="javascript:;">王牌保镖</a></h3>
+											<div class="ua_con">
+												<p>963人想看 -动作/喜剧</p>								
+												<p>导演：派特里克·休斯</p>
+												<p>预告片：<i></i></p>											
+											</div>
+											<div class="ua_price">
+												<p><i>28</i>元起</p>
+												<a href="javascript:;">超前预售</a>
+											</div>
+										</div>
+									</div>								
+								</li>
+								<li>
+									<h1>9月22号</h1>
+									<div class="ulroll_con">
+										<a href="javascript:;"><img src="img/index/160339.16284807_126X190X4.jpg"/></a>
+										<div class="ulroll_allcon">
+											<h3><a href="javascript:;">王牌保镖</a></h3>
+											<div class="ua_con">
+												<p>963人想看 -动作/喜剧</p>								
+												<p>导演：派特里克·休斯</p>
+												<p>预告片：<i></i></p>											
+											</div>
+											<div class="ua_price">
+												<p><i>28</i>元起</p>
+												<a href="javascript:;">超前预售</a>
+											</div>
+										</div>
+									</div>								
+								</li>
+								<li>
+									<h1>9月22号</h1>
+									<div class="ulroll_con">
+										<a href="javascript:;"><img src="img/index/160339.16284807_126X190X4.jpg"/></a>
+										<div class="ulroll_allcon">
+											<h3><a href="javascript:;">王牌保镖</a></h3>
+											<div class="ua_con">
+												<p>963人想看 -动作/喜剧</p>								
+												<p>导演：派特里克·休斯</p>
+												<p>预告片：<i></i></p>											
+											</div>
+											<div class="ua_price">
+												<p><i>28</i>元起</p>
+												<a href="javascript:;">超前预售</a>
+											</div>
+										</div>
+									</div>								
+								</li>
+								<li>
+									<h1>9月22号</h1>
+									<div class="ulroll_con">
+										<a href="javascript:;"><img src="img/index/160339.16284807_126X190X4.jpg"/></a>
+										<div class="ulroll_allcon">
+											<h3><a href="javascript:;">王牌保镖</a></h3>
+											<div class="ua_con">
+												<p>963人想看 -动作/喜剧</p>								
+												<p>导演：派特里克·休斯</p>
+												<p>预告片：<i></i></p>											
+											</div>
+											<div class="ua_price">
+												<p><i>28</i>元起</p>
+												<a href="javascript:;">超前预售</a>
+											</div>
+										</div>
+									</div>								
+								</li>
+								<li>
+									<h1>9月22号</h1>
+									<div class="ulroll_con">
+										<a href="javascript:;"><img src="img/index/160339.16284807_126X190X4.jpg"/></a>
+										<div class="ulroll_allcon">
+											<h3><a href="javascript:;">王牌保镖</a></h3>
+											<div class="ua_con">
+												<p>963人想看 -动作/喜剧</p>								
+												<p>导演：派特里克·休斯</p>
+												<p>预告片：<i></i></p>											
+											</div>
+											<div class="ua_price">
+												<p><i>28</i>元起</p>
+												<a href="javascript:;">超前预售</a>
+											</div>
+										</div>
+									</div>								
+								</li>
+								<li>
+									<h1>9月22号</h1>
+									<div class="ulroll_con">
+										<a href="javascript:;"><img src="img/index/160339.16284807_126X190X4.jpg"/></a>
+										<div class="ulroll_allcon">
+											<h3><a href="javascript:;">王牌保镖</a></h3>
+											<div class="ua_con">
+												<p>963人想看 -动作/喜剧</p>								
+												<p>导演：派特里克·休斯</p>
+												<p>预告片：<i></i></p>											
+											</div>
+											<div class="ua_price">
+												<p><i>28</i>元起</p>
+												<a href="javascript:;">超前预售</a>
+											</div>
+										</div>
+									</div>								
+								</li>
+								<li>
+									<h1>9月22号</h1>
+									<div class="ulroll_con">
+										<a href="javascript:;"><img src="img/index/160339.16284807_126X190X4.jpg"/></a>
+										<div class="ulroll_allcon">
+											<h3><a href="javascript:;">王牌保镖</a></h3>
+											<div class="ua_con">
+												<p>963人想看 -动作/喜剧</p>								
+												<p>导演：派特里克·休斯</p>
+												<p>预告片：<i></i></p>											
+											</div>
+											<div class="ua_price">
+												<p><i>28</i>元起</p>
+												<a href="javascript:;">超前预售</a>
+											</div>
+										</div>
+									</div>								
+								</li>
+								<li>
+									<h1>9月22号</h1>
+									<div class="ulroll_con">
+										<a href="javascript:;"><img src="img/index/160339.16284807_126X190X4.jpg"/></a>
+										<div class="ulroll_allcon">
+											<h3><a href="javascript:;">王牌保镖</a></h3>
+											<div class="ua_con">
+												<p>963人想看 -动作/喜剧</p>								
+												<p>导演：派特里克·休斯</p>
+												<p>预告片：<i></i></p>											
+											</div>
+											<div class="ua_price">
+												<p><i>28</i>元起</p>
+												<a href="javascript:;">超前预售</a>
+											</div>
+										</div>
+									</div>								
+								</li>
+								<li>
+									<h1>9月22号</h1>
+									<div class="ulroll_con">
+										<a href="javascript:;"><img src="img/index/160339.16284807_126X190X4.jpg"/></a>
+										<div class="ulroll_allcon">
+											<h3><a href="javascript:;">王牌保镖</a></h3>
+											<div class="ua_con">
+												<p>963人想看 -动作/喜剧</p>								
+												<p>导演：派特里克·休斯</p>
+												<p>预告片：<i></i></p>											
+											</div>
+											<div class="ua_price">
+												<p><i>28</i>元起</p>
+												<a href="javascript:;">超前预售</a>
+											</div>
+										</div>
+									</div>								
+								</li>
+							</ul>
+						</div>
+					</div>
+					<br />
+				</div>
+				<div class="lookmore">查看更多</div>
+			</div>
+		</div>
+		<div class="mall wrap">
+			<h4 class="h4comon">正版商城</h4>
+			<div class="hd_nav">
+				<i></i>
+				<dl>    				
+					<dd><a href="javascript:;">新品登陆</a></dd><!--    
+    				--><dd><a href="javascript:;">热销爆款</a></dd><!--
+    				--><dd><a href="javascript:;">折扣促销</a></dd><!--
+    				--><dd><a href="javascript:;">超前预售</a></dd>
+				</dl>				
+			</div>		
+			<div class="mall_slider">
+				<a href="javascript:;" class="mall_next"></a>
+				<a href="javascript:;" class="mall_prev"></a>
+				<div class="ms_1">
+					<dl class="ms_con">
+						<dd>
+							<div class="huandongdiv3">
+							<a href="javasript:;"><img src="img/index/160559.66881412_o.jpg"/></a>
+							</div>
+						</dd>
+						<dd class="ms_dd2">
+							<div class="huandongdiv2">
+							<a href="javasript:;"><img src="img/index/143503.98967263_o.jpg.png"/></a>
+							</div>
+						</dd>
+						<dd>
+							<div class="huandongdiv4">
+							<a href="javasript:;"><img src="img/index/174335.29181740_o.jpg"/></a>
+							</div>
+						</dd>
+						<dd><div class="huandongdiv3">
+							<a href="javasript:;"><img src="img/index/160055.91410382_o.jpg"/></a>
+							</div>	
+						</dd>
+						<dd>
+							<div class="huandongdiv2">
+							<a href="javasript:;"><img src="img/index/143512.68784080_o.jpg.png"/></a>
+							</div>
+						</dd>
+						<dd><div class="huandongdiv4">
+							<a href="javasript:;"><img src="img/index/155938.12417127_o.jpg"/></a>
+							</div>
+						</dd>
+					</dl>
+					<br />
+				</div>
+				<div class="ms_1">
+					<dl class="ms_con">
+						<dd>
+							<a href="javasript:;"><img src="img/index/ms1.jpg"/></a>
+						</dd>
+						<dd class="ms_dd2">
+							<a href="javasript:;"><img src="img/index/ms2.jpg"/></a>
+						</dd>
+						<dd>
+							<a href="javasript:;"><img src="img/index/ms3.jpg"/></a>
+						</dd>
+						<dd>
+							<a href="javasript:;"><img src="img/index/ms4.jpg"/></a>
+						</dd>
+						<dd>
+							<a href="javasript:;"><img src="img/index/ms5.jpg"/></a>
+						</dd>
+						<dd>
+							<a href="javasript:;"><img src="img/index/ms6.jpg"/></a>
+						</dd>
+					</dl>
+					<br />
+				</div>
+			</div>
+			<div class="mall_footer">
+				<ul>
+					<li>
+						<h3><a href="javascript:;">居家日用</a></h3>
+						<p>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">更多>></a>
+						</p>
+					</li>
+					<li>
+						<h3><a href="javascript:;">居家日用</a></h3>
+						<p>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">更多>></a>
+						</p>
+					</li>
+					<li>
+						<h3><a href="javascript:;">居家日用</a></h3>
+						<p>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">更多>></a>
+						</p>
+					</li>
+					<li>
+						<h3><a href="javascript:;">居家日用</a></h3>
+						<p>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">抱枕靠垫</a>
+							<a href="javascript:;">更多>></a>
+						</p>
+					</li>
+				</ul>
+				<br />
+			</div>
+			<div class="lookmore">查看更多</div>
+		</div>
+		<div class="goodtime">
+			<h4 class="h4comon">时光精选</h4>
+			<div class="hd_nav">
+				<i></i>
+				<dl>
+					<dd><a href="javascript:;">时光电影TOP100</a></dd><!--    
+    				--><dd><a href="javascript:;">观影指南</a></dd><!--
+    				--><dd><a href="javascript:;">获奖佳片</a></dd><!--
+    				--><dd><a href="javascript:;">特约影评</a></dd><!--
+    				--><dd><a href="javascript:;">卡片大富翁</a></dd><!--
+    				--><dd><a href="javascript:;">电影猜猜猜</a></dd>
+				</dl>				
+			</div>	
+		</div>
+		<script type="text/javascript">
+			$('#camera_demo').camera({
+				time:'2000',
+				height:'360px',
+				playPause:'false',
+				portrait:true
+			});
+			createSnow('xuehua/', 60);
+		</script>
+	</body>
+</html>
